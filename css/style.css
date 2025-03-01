@@ -1,0 +1,46 @@
+/*general styling*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4c4c4c;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+}
+
+h1, h2 {
+    font-family: "century gothic";
+    color: #cc3333;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+/*nav styling*/
+nav ul{
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px 5px 0;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4c4c4c;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #4c4c4c;
+
+}
