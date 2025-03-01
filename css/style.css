@@ -24,12 +24,23 @@ h2 {
     font-size: 1.6em;
 }
 
-/*nav styling*/
-nav ul{
+/* header styling */
+header {
+    background-image: url("../assets/hintergrund_1.jpg");
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
 }
-li {
-    display: inline-block;
+
+/*nav styling*/
+nav ul {
     list-style: none;
+    text-align: rigth;
+}
+
+nav ul li {
+    display: inline-block;
     padding: 5px 10px 5px 0;
     margin-right: 10px;
 }
