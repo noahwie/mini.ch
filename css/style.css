@@ -94,3 +94,28 @@ tfoot td {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+/* Formular styling member.html */
+form {
+	margin: 20px auto;
+	width: 60%;
+}
+
+fieldset {
+	border: 1px dotted #4c4c4c;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+legend {
+	color: #cc3333;
+	font-weight: bold;
+}
+
+label {
+	width: 10em;
+}
+
+form p {
+	margin-bottom: 3px;
+}
