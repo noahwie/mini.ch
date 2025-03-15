@@ -40,6 +40,20 @@ header {
     height: 400px;
 }
 
+.fl_left {
+    float: left;
+    width: 15%;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.welcome {
+    float: right;
+    width: 80%;
+    margin-top: 2%;
+    text-align: center;
+}
+
 /*nav styling*/
 nav ul {
     list-style: none;
@@ -63,6 +77,41 @@ nav ul li a:hover {
     border-bottom: 2px solid #4c4c4c;
 }
 
+/*aside styling */
+.news h2 {
+    color: #4c4c4c;
+    border-bottom: solid 2px #4c4c4c;
+}
+
+.newswrapp {
+    display: flex;
+}
+
+.boxwrapp {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* styling article */
+.flex {
+    width: 60%;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 /* Table styling preise.html */
 h2
 

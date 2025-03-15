@@ -12,8 +12,8 @@
         <div id="wrapper">
              <!--Main page header-->
             <header>
-                <img src="assets/mini_logo.png" alt="Mini Logo">
-                <h1>Willkommen bei der Miniklubseite</h1>
+                <img class="fl_left" src="assets/mini_logo.png" alt="Mini Logo">
+                <h1 class="welcome">Willkommen bei der Miniklubseite</h1>
             </header>
             <nav>
                 <ul>
@@ -33,67 +33,86 @@
             <!--aside für mininews section-->
             <aside>
                 <h2>Mini News</h2>
+                <div class="newswrapp">
+                    <article class="news">
+                    <div class="boxwrapp">
+                        <h2>Fun Electrified</h2>
+                        <p>Erleben Sie MINI typisches Gokart-Feeling zu attraktiven Konditionen. Konfigurieren Sie jetzt ganz einfach den MINI Electric nach Ihren Bedürfnissen und lassen Sie sich vom MINI Partner ein passendes Angebot inklusive aller aktuellen Aktionen zustellen. Bitte beachten Sie, dass während der Konfiguration die Listenpreise noch ohne Rabatte angezeigt werden.</p>
+                    </div>
+                    </article>
+                    
+                    <article class="news">
+                        <div class="boxwrapp">
+                            <h2>Der neue Mini 5 Door</h2>
+                            <p>Unser Motto: Maximieren wir die MINIfizierung! Da der zuverlässige MINI 5 door mehr Platz für Passagiere und Gepäck bietet, bekommen Sie mehr in ihn hinein – und können auch mehr aus ihm herausholen! Trotzdem können Sie nach wie vor die spritzige Leistung und das Fahrverhalten geniessen, für die der MINI berühmt ist. Durch seinen niedrigen Schwerpunkt und seine kompakten Abmessungen lässt er sich leicht durch enge Gassen und in enge Parkplätzen manövrieren. Mit der breiten Palette an Personalisierungsoptionen können Sie Ihr ganz eigenes Modell gestalten. Der Individualist für ein Maximum an Fahrspass bietet alles, was Sie an einem MINI lieben – und mehr.</p>    
+                        </div>
+                    </article>
 
-                <article>
-                <h2>Fun Electrified</h2>
-                <p>Erleben Sie MINI typisches Gokart-Feeling zu attraktiven Konditionen. Konfigurieren Sie jetzt ganz einfach den MINI Electric nach Ihren Bedürfnissen und lassen Sie sich vom MINI Partner ein passendes Angebot inklusive aller aktuellen Aktionen zustellen. Bitte beachten Sie, dass während der Konfiguration die Listenpreise noch ohne Rabatte angezeigt werden.</p>
-                </article>
-                
-                <article>
-                    <h2>Der neue Mini 5 Door</h2>
-                    <p>Unser Motto: Maximieren wir die MINIfizierung! Da der zuverlässige MINI 5 door mehr Platz für Passagiere und Gepäck bietet, bekommen Sie mehr in ihn hinein – und können auch mehr aus ihm herausholen! Trotzdem können Sie nach wie vor die spritzige Leistung und das Fahrverhalten geniessen, für die der MINI berühmt ist. Durch seinen niedrigen Schwerpunkt und seine kompakten Abmessungen lässt er sich leicht durch enge Gassen und in enge Parkplätzen manövrieren. Mit der breiten Palette an Personalisierungsoptionen können Sie Ihr ganz eigenes Modell gestalten. Der Individualist für ein Maximum an Fahrspass bietet alles, was Sie an einem MINI lieben – und mehr.</p>    
-                </article>
-
-                <article>
-                    <h2>Das neue Mini Cabrio</h2>
-                    <p>Das MINI Cabrio ist ein kultivierter Freigeist und der Inbegriff von ungetrübtem Fahrspass unter freiem Himmel. Geniessen Sie die Freude, die ein Cabrio mit überlegenem Fahrverhalten und überlegener Technologie bietet. Bequeme Sitzplätze für vier Personen und ein elektrisch verstellbares 3-in-1-Softtop laden zu Ihrem nächsten Freiluftabenteuer ein. Mit dem TWIN-Power-Turbomotor, der Sie in weniger als 7 Sekunden auf 100 km/h bringt, können Sie jeden Augenblick nutzen.</p>
-                </article>
+                    <article class="news">
+                        <div class="boxwrapp">
+                            <h2>Das neue Mini Cabrio</h2>
+                            <p>Das MINI Cabrio ist ein kultivierter Freigeist und der Inbegriff von ungetrübtem Fahrspass unter freiem Himmel. Geniessen Sie die Freude, die ein Cabrio mit überlegenem Fahrverhalten und überlegener Technologie bietet. Bequeme Sitzplätze für vier Personen und ein elektrisch verstellbares 3-in-1-Softtop laden zu Ihrem nächsten Freiluftabenteuer ein. Mit dem TWIN-Power-Turbomotor, der Sie in weniger als 7 Sekunden auf 100 km/h bringt, können Sie jeden Augenblick nutzen.</p>
+                        </div>
+                    </article>
+                </div>
             </aside>
             <!--Section für main article content-->
             <section>
                 
                 <h1>It's not a car - it's a COUNTRYMAN</h1>
                 
-                <article id="countryman">
+                <article class="one" id="countryman">
                     <img src="img/erster_artikel.jpg" alt="Mini Countryman auf schneebedeckter Strasse"  width="500">
-                    <h2>May we introduce - the countryman</h2>
-                    <p>Unser bisher vielseitigster MINI zieht alle Blicke auf sich. Das geräumige und hochwertige Interieur bietet Platz für fünf Erwachsene - und so viel Fussraum, dass sich selbst der längste Mitfahrer hinten bequem ausstrecken kann. <em>"Countryman for everyone"</em> .</p>
+                    <div class="flex">
+                        <h2>May we introduce - the countryman</h2>
+                        <p>Unser bisher vielseitigster MINI zieht alle Blicke auf sich. Das geräumige und hochwertige Interieur bietet Platz für fünf Erwachsene - und so viel Fussraum, dass sich selbst der längste Mitfahrer hinten bequem ausstrecken kann. <em>"Countryman for everyone"</em> .</p>
+                    </div>
                 </article>
                 
-                <article id="gepäckraum">
+                <article class="two" id="gepäckraum">
                     <img src="img/zweiter_artikel.jpg" alt="Countryman Safari in der Wüste unterwegs"  width="500">
-                    <h2>Gepäckraum</h2>
-                    <p>Mit bis zu 1.390 Litern Fassungsvermögen bietet der geräumige Gepäckraum des neuen <em>"MINI Countryman"</em> endlos viele Möglichkeiten für den Städtetrip oder die Landpartie.</p>
+                    <div class="flex">
+                        <h2>Gepäckraum</h2>
+                        <p>Mit bis zu 1.390 Litern Fassungsvermögen bietet der geräumige Gepäckraum des neuen <em>"MINI Countryman"</em> endlos viele Möglichkeiten für den Städtetrip oder die Landpartie.</p>
+                    </div>
                 </article>
 
-                <article id="freihändig">
+                <article class="one" id="freihändig">
                     <img src="img/dritter_artikel.jpg" alt="Mini Clubman in einem Mini Händler Showroom"  width="500">
-                    <h2>Freihändig öffnen</h2>
-                    <p>Sie haben die Hände voll oder möchten Ihr Gepäck nicht auf den Boden stellen? Dann reicht Ihnen der "Easy Opener" eine helfende Hand beim Beladen des grosszügigen Gepäckraums des <em>"MINI Countryman"</em> . Bewegen Sie einfach Ihren Fuss unter der Ladekante und schon  öffnet sich die Heckklappe automatisch. Mit einer zweiten Fussbewegung schliesst sie sich wieder. Eine echte Hilfe, wenn Sie Ihre Kinder, Haustiere oder zahlreiche Einkäufe tragen. Verfügbar mit dem Komfortzugang.</p>
+                    <div class="flex">
+                        <h2>Freihändig öffnen</h2>
+                        <p>Sie haben die Hände voll oder möchten Ihr Gepäck nicht auf den Boden stellen? Dann reicht Ihnen der "Easy Opener" eine helfende Hand beim Beladen des grosszügigen Gepäckraums des <em>"MINI Countryman"</em> . Bewegen Sie einfach Ihren Fuss unter der Ladekante und schon  öffnet sich die Heckklappe automatisch. Mit einer zweiten Fussbewegung schliesst sie sich wieder. Eine echte Hilfe, wenn Sie Ihre Kinder, Haustiere oder zahlreiche Einkäufe tragen. Verfügbar mit dem Komfortzugang.</p>
+                    </div>
                 </article>
 
-                <article id="vorteile">
+                <article class="two" id="vorteile">
                     <img src="img/countryman_interior.jpg" alt="Countryman Innenraum"  width="500">
-                    <h2>Vorteile des Countryman</h2>
-                    <ul>
-                        <li>Schnell und wendig</li>
-                        <li>Bequemes Fahrwerk</li>
-                        <li><strong>Geringer</strong> Verbrauch</li>
-                        <li>Viel Platz</li>
-                    </ul>
+                    <div class="flex">
+                        <h2>Vorteile des Countryman</h2>
+                        <ul>
+                            <li>Schnell und wendig</li>
+                            <li>Bequemes Fahrwerk</li>
+                            <li><strong>Geringer</strong> Verbrauch</li>
+                            <li>Viel Platz</li>
+                        </ul>
+                    </div>
                 </article>
 
-                <article id="im_test">
+                <article class="one" id="im_test">
                     <img src="img/countryman_unterwegs.jpg" alt="Countryman unterwegs auf Landstrasse"  width="500">
-                    <h2>Der neue Countryman im Test</h2>
-                    <p>Der neue <em>"MINI Countryman"</em> ist grösser, robuster und solider denn je. Mit seinem stabilen neuen Design und dem innovativen ALL4 Allradantrieb ist er wie dafür geschaffen, Landstrassen, Offroadterrain oder auch Stadtgebiete zu erkunden. Erregungszustand versetzt, der sich  über den Sehnerv in dem hinteren Teil Ihres Gehirns ausbreitet.</p>
-                    <p>Unberührte Orte abseits ausgetretener Pfade erforschen: mit dem <em>"MINI Countryman"</em> ein unvergleichlicher Spass. Wenn Sie die Strasse verlassen, entfaltet sich die ganze Kraft. Geniessen Sie das direkte Fahrverhalten und den sicheren Halt auf jedem Gefälle und in jeder Kurve. Bei jeder Bedingung.</p>
+                    <div class="flex">
+                        <h2>Der neue Countryman im Test</h2>
+                        <p>Der neue <em>"MINI Countryman"</em> ist grösser, robuster und solider denn je. Mit seinem stabilen neuen Design und dem innovativen ALL4 Allradantrieb ist er wie dafür geschaffen, Landstrassen, Offroadterrain oder auch Stadtgebiete zu erkunden. Erregungszustand versetzt, der sich  über den Sehnerv in dem hinteren Teil Ihres Gehirns ausbreitet.</p>
+                        <p>Unberührte Orte abseits ausgetretener Pfade erforschen: mit dem <em>"MINI Countryman"</em> ein unvergleichlicher Spass. Wenn Sie die Strasse verlassen, entfaltet sich die ganze Kraft. Geniessen Sie das direkte Fahrverhalten und den sicheren Halt auf jedem Gefälle und in jeder Kurve. Bei jeder Bedingung.</p>
+                    </div>
                 </article>
 
-                <article id="all4">
+                <article class="two" id="all4">
                     <img src="img/mini_topview.jpg" alt="Mini Countryman von Oben gezeigt"  width="500">
-                    <h2>ALL4</h2>
-                     <p>Behalten Sie in jeder Situation die Kontrolle. Der Allradantrieb verteilt die Leistung dynamisch auf Vorder- und Hinterachse. Je nach Fahrstil und Strassenhaftung berechnet der ALL4 Allradantrieb das optimale Drehmoment für jedes Rad. In Extremsituationen kann das gesamte Antriebsmoment auf di e Hinterachse  übertragen werden - so befreien Sie sich aus jeder Lage.</p>
+                    <div class="flex">
+                        <h2>ALL4</h2>
+                        <p>Behalten Sie in jeder Situation die Kontrolle. Der Allradantrieb verteilt die Leistung dynamisch auf Vorder- und Hinterachse. Je nach Fahrstil und Strassenhaftung berechnet der ALL4 Allradantrieb das optimale Drehmoment für jedes Rad. In Extremsituationen kann das gesamte Antriebsmoment auf di e Hinterachse  übertragen werden - so befreien Sie sich aus jeder Lage.</p>
+                    </div>
                 </article>
             </section>
             <!--Mainpage footer-->
