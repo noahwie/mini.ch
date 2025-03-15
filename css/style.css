@@ -55,6 +55,12 @@ header {
 }
 
 /*nav styling*/
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.9);
+    height: 40px;
+}
 nav ul {
     list-style: none;
     text-align: right;
