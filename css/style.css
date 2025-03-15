@@ -57,7 +57,7 @@ header {
 /*nav styling*/
 nav ul {
     list-style: none;
-    text-align: rigth;
+    text-align: right;
 }
 
 nav ul li {
@@ -87,6 +87,10 @@ nav ul li a:hover {
     display: flex;
 }
 
+.newswrapp > * {
+    flex: 1 1 0%;
+}
+
 .boxwrapp {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -96,11 +100,13 @@ nav ul li a:hover {
 
 /* styling article */
 .flex {
+    margin-left: 20px;
     width: 60%;
 }
 
 .one {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -109,9 +115,24 @@ nav ul li a:hover {
 
 .two {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
+.one > * {
+    flex: 1 1 20%;
+}
+
+.two > * {
+    flex: 1 1 20%;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+}
+
 /* Table styling preise.html */
 h2
 
@@ -167,4 +188,19 @@ label {
 
 form p {
 	margin-bottom: 3px;
+}
+
+
+/*media querrys */
+@media only screen and (min-width : 320px) and ( max-width: 768px) {
+    header {
+        font-size: 0.7rem;
+        height: 200px;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+
+
 }
